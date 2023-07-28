@@ -1,0 +1,86 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.center-image {
+  padding-top: 0.5rem;
+  display: block;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 400px;
+  margin: 2rem auto;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #444;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s;
+  box-sizing: border-box; /* Add this line to include padding in the width calculation */
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Additional styles for this specific form */
+#voteform {
+  text-align: center;
+}
+
+#voteform br {
+  display: none;
+}
+
+#voteform input[type="submit"] {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+/* Center text inputs */
+input[type="text"] {
+  text-align: center;
+}
